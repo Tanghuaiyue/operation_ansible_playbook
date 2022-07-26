@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+    - name: Check the ip.
+      command: ipconfig
+    - name: Update the source.
+      command: hg -cwd D:\QA\Source update -r 2800_
