@@ -1,6 +1,6 @@
 - hosts: all
   tasks:
     - name: Check the ip.
-      command: ipconfig
+      win_wcommand: ipconfig
     - name: Update the source.
-      command: D: && cd D:\QA\Source && hg update -r 2800_
+      win_wcommand: D: && cd D:\QA\Source && hg update -r 2800_
