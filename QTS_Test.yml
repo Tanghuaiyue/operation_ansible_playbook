@@ -3,4 +3,4 @@
     - name: Check the ip.
       win_wcommand: "ipconfig"
     - name: Update the source.
-      win_wcommand: "D: && cd D:\QA\Source && hg update -r 2800_"
+      win_wcommand: "D: && cd D:\\QA\\Source && hg update -r 2800_"
